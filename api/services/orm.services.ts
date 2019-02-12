@@ -24,7 +24,7 @@ export class ORM {
 
     this.init();
   }
-
+ 
   public async save(options: {data: string | object, table: string }) {
     const table = options.table;
     const tablePath = util.format(this.tablePath, table);

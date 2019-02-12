@@ -2,6 +2,7 @@
 
 ## Project setup
 ```
+cd client
 yarn install
 ```
 
@@ -24,3 +25,5 @@ yarn run test
 ```
 yarn run lint
 ```
+
+> Access the frontend using http://localhost:3000
